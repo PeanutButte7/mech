@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Test script for the Framer-Pipedrive webhook using curl
-# Update this URL with your deployed Vercel URL
+# Update this URL with your deployed Vercel URLL
 WEBHOOK_URL="https://mech-henna.vercel.app/api/webhook/pipedrive"
 
 # Use the same secret as in your environment
