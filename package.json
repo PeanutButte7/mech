@@ -1,0 +1,21 @@
+{
+  "name": "framer-pipedrive-webhook",
+  "version": "1.0.0",
+  "description": "Vercel serverless function to connect Framer forms with Pipedrive CRM",
+  "main": "api/webhook/pipedrive.js",
+  "scripts": {
+    "start": "vercel dev",
+    "dev": "vercel dev --listen 3000",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "keywords": ["framer", "pipedrive", "webhook", "crm", "real-estate"],
+  "author": "",
+  "license": "MIT"
+}

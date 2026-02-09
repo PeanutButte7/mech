@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "functions": {
+    "api/webhook/pipedrive.js": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "PIPEDRIVE_API_TOKEN": "@pipedrive-api-token",
+    "PIPEDRIVE_COMPANY_DOMAIN": "@pipedrive-company-domain",
+    "FRAMER_WEBHOOK_SECRET": "@framer-webhook-secret",
+    "PROPERTY_SIZE_FIELD_ID": "@property-size-field-id",
+    "PROPERTY_TYPE_FIELD_ID": "@property-type-field-id",
+    "DEFAULT_DEAL_STAGE_ID": "@default-deal-stage-id"
+  }
+}
