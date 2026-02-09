@@ -4,10 +4,9 @@
   "description": "Vercel serverless function to connect Framer forms with Pipedrive CRM",
   "main": "api/webhook/pipedrive.js",
   "scripts": {
-    "start": "vercel dev",
-    "dev": "vercel dev --listen 3000",
-    "build": "vercel build",
-    "deploy": "vercel --prod"
+    "dev": "vercel dev",
+    "test": "node test-webhook.js",
+    "test:curl": "./test-curl.sh"
   },
   "dependencies": {
     "crypto": "^1.0.1"
